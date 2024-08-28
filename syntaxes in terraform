@@ -1,9 +1,12 @@
-# syntax for creating  resources:
+#syntax for creating  resources:
 
 resource " what type of resource" "name-our-resource-our- wish" {}
 
-syntax for variables
+#syntax for creating variables
 
 variable "name-of-your-variable"{
     default = "default-value" # we can overide the values
 }
+
+# syntax for refering variables
+  var.name-of-your-variables #this syntax will refer the variables

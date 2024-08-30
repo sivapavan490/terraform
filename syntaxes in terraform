@@ -10,3 +10,34 @@ variable "name-of-your-variable"{
 
 # syntax for refering variables
   var.name-of-your-variables #this syntax will refer the variables
+
+# syntax for output
+ # terraform o/p is used to get information for 1 resource as o/p and provide i/p as another resource.
+  output "name-of-your-variable"{
+    value= aws_instance.name-our-resource.id #to get instance id
+    value= aws_instance.name-our-resource.private_ip # to get private ip
+    value= aws_instance.name-our-resource.public_ip # to get public ip 
+  }
+# condition syntaxes
+expression ? "true statement": "false statement"
+
+# locals:- In locals we can keep both functions and expressions and we can use them.
+# In locals count.index is not work
+locals
+{
+
+}
+
+loops:-
+1.count-based-loop 
+
+* Terraform will give a special variable for count based-loop i.e; count.index
+
+2.for-eachloop
+
+1. functions
+
+
+DATA-SOUCE:-
+
+It is used to get data from dynamically from providers

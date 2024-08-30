@@ -1,0 +1,7 @@
+1.terraform init
+2.terraform plan
+3.terrafrom apply -auto-approve
+
+4.terrafrom plan -var="variablename=value" --> this cmd is used to pass the variables by command line
+
+5. terraform plan -var-file="filename" -->this cmd is used to pass the variable files from command line 

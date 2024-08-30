@@ -26,7 +26,7 @@ resource "aws_instance""web"{
 
     instance_type= "t2.micro"
     ami= data.aws_ami.centos-ami.id
-    vpc_security_group_ids = [aws_security_group.roboshop-all.id]
+    #vpc_security_group_ids = [aws_security_group.roboshop-all.id]
 
     tags = {
         Name="pavan"

@@ -14,7 +14,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "state-file-locking"
-    key    = "for-each"
+    key    = "module"
     region = "us-east-1"
     dynamodb_table = "statefile-locking"
   }

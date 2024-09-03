@@ -28,14 +28,6 @@ locals
 
 }
 
-loops:-
-1.count-based-loop 
-
-* Terraform will give a special variable for count based-loop i.e; count.index
-
-2.for-eachloop
-
-1. functions
 
 
 DATA-SOUCE:-

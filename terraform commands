@@ -5,3 +5,14 @@
 4.terrafrom plan -var="variablename=value" --> this cmd is used to pass the variables by command line
 
 5. terraform plan -var-file="filename" -->this cmd is used to pass the variable files from command line 
+
+6. terraform init -reconfigure
+
+7. terraform init -backend-config=/path
+
+
+8. terraform init -reconfigure -backend-config=/path
+
+9. terraform workspace list # it will show the list of workspaces
+
+10. terraform workspace new workspace name # it will create a workspace

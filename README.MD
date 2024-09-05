@@ -15,3 +15,6 @@ count based loops are mostly we used to iterate the items of list.count loop wil
 for-each loop is mostly used to iterate the maps .for-each  loop will give a special variable i.e; #EACH.KEY&EACH.VALUE
 
 Dynamic loop
+
+FUNCTIONS:-
+1. length() 2.  merge() 3.lookup() slice()

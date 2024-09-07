@@ -14,7 +14,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "state-file-locking"
-    key    = "vpc-module-testing"
+    key    = "vpc-module-testing3"
     region = "us-east-1"
     dynamodb_table = "statefile-locking"
   }

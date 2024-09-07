@@ -10,4 +10,9 @@ module "roboshop-vpc" {
 
   # private subnet
   private_subnets_cidr = var.private_subnets_cidr
+
+# database subnet
+  database_subnets_cidr = var.database_subnets_cidr
+# is peering required
+  is_peering_required = var.is_peering_required
 }
